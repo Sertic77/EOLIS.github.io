@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.inicio
+{
+    width: 100%;
+    height: 100%;
+    background-color: #EDEDED;
+}
+.navbar
+{
+    width: 100%;
+    background-color: #070812;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 10%;
+}
+.navbar a
+{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    padding: 0 3%;
+    font-size: 1.5rem;
+}
+.items
+{
+    width: 45%;
+    text-align: right;
+    display: flex;
+}
+.fondo
+{
+    background-color: #EDEDED;
+    display: flex;
+    
+}
+.fondo-1
+{
+    padding: 5% 0;
+    padding-left: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:12% 15%;
+
+}
+.negro
+{
+    font-size: 4rem;
+    font-weight: lighter;
+    
+}
+.verde
+{
+    font-size: 5rem;
+    color: #5A9657;  
+    font-weight: bold;  
+
+}
+.btn    
+{
+    width: 15%;
+    border-radius: 50px;
+    color: #5A9657;
+    border: none;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.contactar
+{
+    width: 33%;
+    margin-top: 15%;
+    padding: 3% 0;
+}
+.fondo-3
+{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    padding: 3% 3%;
+    margin-top: 5%;
+    
+}
+
+/*somos*/
+.somos
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.somos-titulo
+{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+.somos-titulo h1
+{
+    color: #5A9657;
+    padding-bottom: 5%;
+}
+.somos p
+{
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.somos-img
+{
+    margin: 4% 15%;
+}
+.somos-img img
+{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+/*Servicios*/
+.servicios
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.servicios h1
+{
+    color: #5A9657;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.servicio-1
+{
+    display: flex;
+    padding-bottom: 5%;
+    justify-content: space-around;
+}
+.servicio-text
+{
+    background-color: #5A9657;
+    width: 60%;
+    color: white;
+    padding-left: 15%;
+    padding-right: 10%;
+    display: flex;
+    
+}
+.servicio-text h2
+{
+    padding-bottom: 5%;
+}
+.servicio-text p
+{
+    letter-spacing: 3%;
+    line-height: 30px;
+
+}
+.servicio-text-1
+{
+    align-self: center;
+
+    
+}
+.servicio-2
+{
+    order: 1;
+}
+
+
+/*Tips*/
+
+.tips
+{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+.tips-img 
+{
+    display: flex;
+    width: 40%;
+}
+
+/*clientes*/
+.clientes
+{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 400px;
+    padding-top: 5%;
+}
+.cont-clientes-img
+{
+    margin: auto;
+    padding-left: 6%;
+}
+.clientes-img
+{
+    display: flex;
+    background-color:#EDEDED ;
+}
+.clientes-img img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    align-self: center;
+}
+.clientes-img p
+{
+    text-align: center;
+    align-self: center;
+    padding: 0 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3%;
+    line-height: 30px;
+}
+.clientes-text
+{
+    background-color: #070812;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+    text-align: center;
+
+}
+.clientes-text H1
+{
+    color: white;
+    font-size: 4rem;
+    justify-self: center;
+    align-self: center;
+    padding-top: 35%;
+}
+
+
+
+
+
+
+
+
+
+/*formulario*/
+.contacto
+{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-between;
+    padding: 0% 15%;
+}
+.form
+{
+    padding:10% 0;
+    width: 55%;
+}
+.text-1
+{   
+    color: #081E18;
+    padding: 10% 0;
+}
+.text-2
+{
+    display: flex;
+    padding: 2% 0;
+}
+.text-2 p
+{
+    align-self: center;
+    padding-left: 4%;
+}
+.formulario
+{
+    width: 100%;
+    background-color: #0D3D30;  
+    border-radius: 10px;
+    padding: 5% 8%;
+    margin: auto;
+}
+.sep
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sep1 p
+{
+    color: white;
+    padding-bottom: 10px;
+
+}
+.sep1
+{
+    padding-bottom: 10px;
+    width: 48%;
+}
+.field-1
+{
+    width:100% ;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3%;
+    line-height: 30px;
+}
+.field-1-1
+{
+    width:100% ;
+    height: 20vh;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3%;
+    line-height: 30px;
+}
+.sep2
+{
+    color: white;
+}
+.btn-1    
+{
+    padding: 2% 0;
+    width: 20%;
+    border-radius: 50px;
+    color: #000000;
+    border: none;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*Footer*/
+.footer
+{
+    width: 100%;
+    height: auto;
+    background-color: #0D3D30;
+}
+.logos 
+{
+    width: 20%;
+    margin: auto;
+    padding: 0.3% 0;
+}
+.logos a
+{
+    padding: 0.3% 2%;
+}
+.footer img
+{
+    justify-self: center;
+}
+
+
+
+
+
+@media(max-width: 950px){
+
+    .navbar
+    {
+        display: inline-block;
+        padding: 0%;
+    }
+    .navbar a
+    {
+        font-size: 1rem;
+    }
+    .items
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .navimg
+    {
+        padding: 5%;
+        text-align: center;
+    }
+    .fondo
+    {
+        display: block;
+    }
+    .contactar
+    {
+        width: 50%;
+    }
+    .cont-btn
+    {
+        text-align: center;
+    }
+    .fondo-2
+    {
+        text-align: center;
+    }
+    .fondo-3
+    {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .verde
+    {
+        font-size: 2rem;
+    }
+    .negro
+    {
+        font-size: 2rem;
+    }
+    .somos-titulo
+    {
+        width: 80%;
+    }
+    .servicio-1
+    {
+        display: block;
+    }
+    .servicio-text
+    {
+        padding: 8%;
+        width: 100%;
+    }
+    .servicio-img img 
+    {
+        width: 100%;
+    }
+    .tips
+    {
+        display: block;
+        padding: 5% 0%;
+    }
+    .tips-text
+    {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .tips-img
+    {
+        width: 100%;
+    }
+    .clientes
+    {
+        display: block;
+    }
+    .clientes-text
+    {
+        width: 100%;
+        
+    }
+    .clientes-text h1 
+    {
+        font-size: 2rem;
+        padding: 2% 0;
+    }
+    .clientes-img
+    {
+        display: block;
+    }
+    .clientes-img img
+    {
+        padding: 5% 0;
+        margin: 0 auto;
+    }
+    .cont-clientes-img
+    {
+        text-align: center;
+    }
+    .contacto
+    {
+        display: block;
+        padding: 0;
+    }
+    .text-1
+    {
+        margin-top: 0;
+        padding: 5% 5%;
+    }
+    .form
+    {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 5%;
+    }
+    .logos
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .btn-1
+    {
+        width: 30%;
+    }
+}
